@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Customer.master.cs" Inherits="Customer" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 550px;
+        }
+        .style2
+        {
+            width: 380px;
+        }
+    </style>
+</head>
+<body background="image/bg10.jpg">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <div>
+        <h1 style="font-style: italic; text-align: center">
+        ONLINE BOOK SHOP SYSTEM
+        </h1>
+        </div>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+    
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        <div>
+        <marquee>
+            <asp:Image ID="Image1" runat="server" Height="115px" Width="115px" ImageUrl="~/design/25.jpeg" />
+&nbsp;<asp:Image ID="Image2" runat="server" Height="115px" Width="115px" ImageUrl="~/design/26.jpeg" />
+&nbsp;<asp:Image ID="Image3" runat="server" Height="115px" Width="115px"  ImageUrl="~/design/27.jpeg"/>
+&nbsp;<asp:Image ID="Image4" runat="server" Height="115px" Width="115px" ImageUrl="~/design/31.jpeg" />
+&nbsp;<asp:Image ID="Image5" runat="server" Height="115px" Width="115px" ImageUrl="~/design/32.jpeg" />
+&nbsp;<asp:Image ID="Image6" runat="server" Height="115px" Width="115px"  ImageUrl="~/design/35.jpeg"/>
+&nbsp;<asp:Image ID="Image7" runat="server" Height="115px" Width="115px" ImageUrl="~/design/36.jpeg" />
+&nbsp;<asp:Image ID="Image8" runat="server" Height="115px" Width="115px" ImageUrl="~/design/37.jpeg" />
+&nbsp;<asp:Image ID="Image9" runat="server" Height="115px" Width="115px" ImageUrl="~/design/38.jpeg" />
+&nbsp;<asp:Image ID="Image10" runat="server" Height="115px" Width="115px" ImageUrl="~/design/41.jpeg" />
+</marquee>
+        </div>
+           </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" Font-Italic="True" Font-Size="XX-Large"></asp:Label>
+&nbsp;
+                <asp:Label ID="Label2" runat="server" Font-Italic="True" Font-Size="XX-Large" 
+                    Text=" % OFFER"></asp:Label>
+                &nbsp;&nbsp;</p>
+        </asp:ContentPlaceHolder>
+        <br />
+    
+    </div>
+    <div>
+    <table>
+    <tr>
+    <td class="style2">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        </asp:ContentPlaceHolder>
+        </td><td class="style1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+    </table>
+    </div>
+    </form>
+</body>
+</html>

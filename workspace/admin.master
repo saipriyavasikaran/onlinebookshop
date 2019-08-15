@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style7
+        {
+            width: 252px;
+        }
+        .style8
+        {
+            width: 463px;
+        }
+    </style>
+</head>
+<body background="image/bg8.jpg">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <div>
+               <center><h1>Online Book Shop  </h1></center>
+            
+            </div>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+    <div>
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+           <div style="width: 1209px; height: 116px;">
+           <marquee>
+               <asp:Image ID="Image1" runat="server" Height="115px" Width="115px"  ImageUrl="~/design/25.jpeg" />
+&nbsp;<asp:Image ID="Image2" runat="server" Height="115px" Width="115px" ImageUrl="~/design/26.jpeg" />
+&nbsp;<asp:Image ID="Image3" runat="server" Height="115px" Width="115px" ImageUrl="~/design/27.jpeg" />
+&nbsp;<asp:Image ID="Image4" runat="server" Height="115px" Width="115px" ImageUrl="~/design/31.jpeg" />
+&nbsp;<asp:Image ID="Image5" runat="server" Height="115px" Width="115px" ImageUrl="~/design/32.jpeg" />
+&nbsp;<asp:Image ID="Image6" runat="server" Height="115px" Width="115px" ImageUrl="~/design/35.jpeg" />
+&nbsp;<asp:Image ID="Image7" runat="server" Height="115px" Width="115px" ImageUrl="~/design/36.jpeg" />
+&nbsp;<asp:Image ID="Image8" runat="server" Height="115px" Width="115px" ImageUrl="~/design/37.jpeg" />
+&nbsp;<asp:Image ID="Image9" runat="server" Height="115px" Width="115px" ImageUrl="~/design/38.jpeg" />
+&nbsp;<asp:Image ID="Image10" runat="server" Height="115px" Width="115px" ImageUrl="~/design/41.jpeg"  />
+           </marquee>
+           </div>
+        </asp:ContentPlaceHolder>
+    <br />
+    </div>
+    
+    <table>
+    <tr>
+    <td class="style7">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <div style="width: 252px">
+            
+                <br />
+                <asp:Menu ID="Menu1" runat="server" Height="336px" Width="167px">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/home.aspx" Text="HOME" Value="HOME"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/adminlogin.aspx" Text="ADMIN" Value="ADMIN">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/adminlogin.aspx" Text="CUSTOMER" Value="CUSTOMER">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="ABOUT US" Value="ABOUT US"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/demogridt.aspx" Text="View Books" 
+                            Value="View Books"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            
+            </div>
+        </asp:ContentPlaceHolder>
+        </td><td class="style8">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+               
+            <div style="width: 574px">
+            
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                &nbsp;<br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            
+            </div>   
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+    </table>
+      
+    </div>
+    
+    </form>
+</body>
+</html>
